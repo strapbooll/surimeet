@@ -1,0 +1,13 @@
+{
+  "name": "surimeet",
+  "version": "1.0.0",
+  "description": "bot para lembrar o preenchimento do formulario para reuniao de equipe",
+  "main": "index.js",
+  "author": "Rafael Ximenez",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "request": "^2.88.2",
+    "twilio": "^3.48.0"
+  }
+}
