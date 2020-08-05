@@ -12,9 +12,9 @@ app.on("ready", function () {
     },
   });
 
-  ex.get("/whats/:num/:msg", function (req, res) {
+  ex.get("/whats/:num", function (req, res) {
     var numero = req.params.num;
-    var msg = req.params.msg;
+    var msg = `Oi, tudo bem? Não esquece de preencher o formulário\n Segue o formulário: https://docs.google.com/forms/d/e/1FAIpQLSd78pgKrCs2YkVRZJIy_PhW-qojvVFQ41vEC-t3I61rR1j2tQ/viewform`;
     enviar(numero, msg);
     res.send("enviando Mensagem via whatsapp..");
   });
